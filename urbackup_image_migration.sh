@@ -3,7 +3,7 @@
 # Migrate urbackup images between urbackup servers
 # Created: 2017-02-21
 
-# Copyright (c) 2017: Hilario J. Montoliu <hmontoliu@gmail.com>, 
+# Copyright (c) 2017: Hilario J. Montoliu <hmontoliu@ebmproyectos.com>, 
 #                     Fernando Brines <fbrines@ebmproyectos.com>
  
 # This program is free software; you can redistribute it and/or modify it
