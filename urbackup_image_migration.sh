@@ -1,6 +1,6 @@
 #! /bin/bash
 # vim:ts=4:sw=4:et:ft=sh
-# Migrate urbackup  vhd images between urbackup servers
+# Migrate urbackup images between urbackup servers
 # Created: 2017-02-21
 
 # Copyright (c) 2017: Hilario J. Montoliu <hmontoliu@gmail.com>, 
@@ -31,7 +31,7 @@ for file in /var/urbackup/backup_server.*; do
 done
 
 # moving files to final destination  
-mv ${source_urbackup_files}/* ${destination_urbackup_files}/$CLIENTNAME/
+cp --sparse=always -fva ${source_urbackup_files}/* ${destination_urbackup_files}/$CLIENTNAME/
 # chown stuff if needed
 
 
