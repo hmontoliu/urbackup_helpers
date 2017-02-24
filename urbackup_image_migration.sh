@@ -59,10 +59,8 @@ update assoc_images_tmp set assoc_id = assoc_id + $destination_MAX_BACKUP_IMAGE_
 EOF
 
 # apply changes to production db
-# Creamos el primer registro de backup_images:
 sqlite3 ${destination_backup_server_db} << EOF
 attach "${source_backup_server_db}" as source;
-
 insert into backup_images select * from source.backup_images_tmp;
 insert into assoc_images select * from source.assoc_images_tmp;
 EOF
