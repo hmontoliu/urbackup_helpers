@@ -45,9 +45,10 @@ We have tested the procedure in both ways.
 To run the script:
 
 * Edit custom variables (paths mostly)
-* run::
-    
-     urbackup_image_migration.sh clientname
+* run:
      
-
+     ```
+     urbackup_image_migration.sh clientname
+     ```
+     
 Use at your own risk.
