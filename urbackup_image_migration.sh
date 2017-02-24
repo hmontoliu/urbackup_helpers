@@ -19,7 +19,7 @@ CLIENTNAME="${1}" # TODO: handle cli params and help stuff
 
 # custom variables
 source_urbackup_files=/media/usb/${CLIENTNAME}/
-source_backup_server_db=${source_urbackup_files}/source.db
+source_backup_server_db=${source_urbackup_files}/backup_server.db
 
 destination_urbackup_files=/var/local/backup/urbackup/
 destination_backup_server_db=/var/urbackup/backup_server.db
