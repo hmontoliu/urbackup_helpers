@@ -66,4 +66,4 @@ insert into assoc_images select * from source.assoc_images_tmp;
 EOF
 
 # back to routine job
-systemctl stop urbackupsrv
+systemctl start urbackupsrv
